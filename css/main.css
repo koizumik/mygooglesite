@@ -194,8 +194,48 @@ a.button:hover {
 	font-size: 14px;
 }
 
+@media (max-width: 615px){
+	input.placeholder {
+		width: 70%;
+	}
+}
 
+@media (max-width: 533px){
+	div.bottom-site-links a {
+		font-size: 10px;
+	}
+}
 
+@media (max-width: 451px){
+	ul.top-navigation {
+		width: 100%;
+		font-size: 10px;
+		text-align: center;
+		margin: 0;
+	}
 
+	div.bottom-site-links ul {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+	div.bottom-site-links a{
+		margin: 0;
+		padding: 0;	
+	}
+}
+
+@media (max-width: 360px){
+	.profile-img {
+		display: none;
+	}
+}
+
+@media (max-width: 320px){
+	ul.top-navigation {
+		font-size: 10px;
+	}
+}
 
 
